@@ -39,6 +39,9 @@
 			},
 			{
 				name: 'Field2'
+			},
+			{
+				name: 'Field6'
 			}
 		], {
 			left: 20
@@ -53,6 +56,17 @@
 			}
 		], {
 			left: 200
+		});
+
+		manager.createEntityView('Entity3', [
+			{
+				name: 'Field6'
+			},
+			{
+				name: 'Field7'
+			}
+		], {
+			left: 320
 		});
 
 		manager.draw();
